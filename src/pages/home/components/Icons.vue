@@ -77,8 +77,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '~styles/varibles.styl';
-  @import '~styles/ellipsis.styl';
+  @import '~styles/varibles.styl'
+  @import '~styles/ellipsis.styl'
   .icons >>> .swiper-container
     height 0
     padding-bottom 50%
