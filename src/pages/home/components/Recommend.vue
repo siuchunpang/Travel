@@ -2,7 +2,7 @@
   <div>
     <div class="title">周末去哪儿</div>
     <ul>
-      <li class="item border-bottom" v-for="item of weekendList" :key=item.id>
+      <li class="item border-bottom" v-for="item of recommendList" :key=item.id>
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -16,10 +16,10 @@
 
 <script>
 export default {
-  name: 'HomeWeekend',
+  name: 'HomeRecommend',
   data() {
     return {
-      weekendList: [{
+      recommendList: [{
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
         title: '珠海长隆海洋王国',
