@@ -48,7 +48,7 @@ export default {
         this.recommendList = data.recommendList
         this.weekendList = data.weekendList
       }
-    },
+    }
   },
   mounted() {
     this.getHomeInfo()
