@@ -23,46 +23,34 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles.styl';
-
-.header {
-  display: flex;
-  line-height: $headerHeight;
-  background: $bgColor;
-  color: #fff;
-
-  .header-left {
-    width: 0.64rem;
-    float: left;
-
-    .back-icon {
-      text-align: center;
-      font-size: 0.4rem;
-    }
-  }
-
-  .header-input {
-    flex: 1;
-    height: 0.64rem;
-    line-height: 0.64rem;
-    margin-top: 0.12rem;
-    margin-left: 0.2rem;
-    padding-left: 0.2rem;
-    background: #fff;
-    border-radius: 0.1rem;
-    color: #ccc;
-  }
-
-  .header-right {
-    float: right;
-    width: 1.24rem;
-    text-align: center;
-    color: #fff;
-
-    .arrow-icon {
-      margin-left: -0.04rem;
-      font-size: 0.24rem;
-    }
-  }
-}
+@import '~styles/varibles.styl'
+.header 
+  display: flex
+  line-height: $headerHeight
+  background: $bgColor
+  color: #fff
+  .header-left 
+    width: 0.64rem
+    float: left
+    .back-icon 
+      text-align: center
+      font-size: 0.4rem
+  .header-input 
+    flex: 1
+    height: 0.64rem
+    line-height: 0.64rem
+    margin-top: 0.12rem
+    margin-left: 0.2rem
+    padding-left: 0.2rem
+    background: #fff
+    border-radius: 0.1rem
+    color: #ccc
+  .header-right 
+    float: right
+    width: 1.24rem
+    text-align: center
+    color: #fff
+    .arrow-icon 
+      margin-left: -0.04rem
+      font-size: 0.24rem
 </style>
